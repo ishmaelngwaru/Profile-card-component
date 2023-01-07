@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+img{
+    max-width: 500px;;
+}
+.top-svg{
+    position: absolute;
+    left: 0;
+
+
+}
+.bottom-svg{
+    position:absolute;
+    right: 0;
+    top: 150px;
+}
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    border: 2px solid rgba(000, 000, 000, 0.7), rgba(000, 000, 000, 0.7) ;
+    width: 250px;
+    height: 289px;
+    background-color:#ffff;
+    border-radius: 10px;
+    position: relative;
+
+}
+.pattern-card{
+    position:absolute;
+    max-width: 250px;
+    height: 100px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.profile-card-pic{
+    position: absolute;
+    top: 55px;
+    left: 83px;
+    border-radius: 50%;
+    max-width: 75px;
+    border: 5px solid #fff;
+}
+.name{
+    position: absolute;
+    top: 140px;
+    left: 79px;
+    font-size: 16px;
+}
+.age{
+    position: absolute;
+    top: 146px;
+    left: 173px;
+    font-size: 13px;
+    color:grey;
+}
+p{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-size: 13px;
+    color:grey;
+    font-size: 14px;  
+}
+.line{
+    width: 248px;
+    position: absolute;
+    top: 220px;
+    border: 1px solid rgb(202, 194, 194);
+    
+}
+.followers{
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    font-size: 13px;
+}
+.likes{
+    position: absolute;
+    top: 225px;
+    left: 111px;
+    text-align: center;
+    font-size: 13px;
+}
+.photos{
+    position: absolute;
+    top: 225px;
+    right: 40px;
+    font-size: 13px;
+}
+.f{
+    position: absolute;
+    top: 245px;
+    left: 20px;
+    font-size: 11px;
+}
+.l{
+    position: absolute;
+    top: 245px;
+    left: 111px;
+    text-align: center;
+    font-size: 11px; 
+}
+.p{
+    position: absolute;
+    top: 245px;
+    left: 178px;
+    font-size: 11px;
+}
